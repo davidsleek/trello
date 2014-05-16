@@ -1,0 +1,214 @@
+
+*{
+	margin:0px;
+	padding:0px;
+}
+h1{
+	font:bold 30px tahoma;
+}
+h2{
+	font:bold 18px tahoma;
+}
+hr{
+
+}
+ ul,a,p,img, header, section, footer, aside, nav, article,hgroup,hr,.mid,.the_black.bodyy,.the_form,.main_list,.sub_list,.table1,.myarticle,.top_header,.big_wrapper,.top_menu,.new-div,.the_footer,.main_section,.navbutton,.side_bar,.navbutton1,.navbutton{
+	display:block;
+}
+
+body{
+	text-align: center;
+	background:white;
+	background-image:url('diddy.jpg')
+
+}
+
+
+table img{
+	border:white 3px;
+
+}
+footer{
+	background-color: gray;
+	color: black;
+	min-height: 50px;
+	text-align: center;
+}
+.mid{
+	text-align: center;
+}
+.the_form{
+
+}
+.the_blask{
+	background-color: black;
+	min-height: 20px;
+	color:black;
+
+}
+.big_wrapper{
+	border:0px solid black;
+	width:1000px;
+	/*top, left right and button...this is the order for margin align*/
+	margin:0px auto;
+	text-align: left;
+	background: white;/*for the sheet background*/
+}
+.top_header{
+	background:white;
+	border-bottom-width: 100px;
+	border-color: cyan;
+	padding:0px;
+	border-color:white;
+	margin-top:0px;
+
+}
+.top_header h1{
+	text-align:center;
+	color:red;
+}
+.top_menu{
+	border:red;
+	background:#0079cc;
+	color:white;
+
+
+}
+
+.top_menu li{
+	display:inline-block;/*makes the menu left to each other and not top and down*/
+	list-style:none;/*makes the menus have no bullet point*/
+	padding:15px;
+	font:bold 14px Tahoma;
+	height:22px;
+}
+.top_menu li a{
+	
+	background-color:blue;
+	height:32px;
+	width:75px;
+	text-align: center;
+	border-radius: 10px;
+	text-transform: 
+
+}
+
+.new_div{
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+
+}
+.main_section{
+
+	float:left;
+	width:750px;
+	border:5px solid white;
+	margin:5px;
+	margin-top:0px;
+	padding:5px;
+	color: black;
+
+
+
+}
+.side_bar{
+	display:inline-block;
+	float:left;
+	border:0px solid red;
+	width:120px;
+	margin:10px;
+	padding:10px;
+	background:gray;
+	height:70%;
+	color:gray;
+
+}
+.side_bar li{
+	list-style:none;
+}
+.side_bar p{
+	background-color: tan;
+	color:black;
+	text-align: center;
+	font:Tahoma 25px;
+}
+.the_footer{
+	clear:both;
+	color:white;
+	text-align: center;
+	padding:20px;
+	border-top: 20px 0px green;
+	background:gray;
+	height:50px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+p a{
+	text-decoration: none;
+	color: black;
+}
+.navbutton{
+	width:220px;
+	height:50px;
+	background-color: #87CEEB;
+	border:solid 1px #6495ED;
+	border-radius:0px;
+	text-align: left;
+	padding:2px
+	display:inline-block;
+}
+.my_article{
+	background:white;
+	border:0px solid black;
+	padding:0px;
+	margin-bottom: 10px;
+	font-family: Arial, 20px;
+	float:left;
+	clear:right;
+}
+
+.hobby_left
+{
+	list-style: none;
+	border-radius:10%;
+	text-align: center;
+}
+
+.hobby_left li{
+	float:left;
+	padding-top:30px;
+	padding-left:5px;
+}
+
+}
+.my_table  td{
+	padding:10px;
+	background-color: gray;
+}
+.my_table th{
+	background-color: yellow;
+	padding:10px;
+	text-align: center;
+}
+.main_list{
+
+	list-style-image:url('img/arrow1.png');
+	padding:14px;
+	font:Tahoma 40px bold cursive;
+}
+.sub_list{
+
+list-style-image:url('img/arrow2.png');
+padding:34px;
+}
+.bodyy{
+	float:right;
+	clear:right;
+
+}
+.image{
+	float:left;
+	padding-right: 20px;
+}
